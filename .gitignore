@@ -1,0 +1,22 @@
+# .NET build output
+**/[Bb]in/
+**/[Oo]bj/
+
+# Visual Studio local state
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Generated Roslyn/MSBuild hosts
+**/BuildHost-net472/
+**/BuildHost-netcore/
+
+# Local SQLite data (created on first start)
+**/*.db
+**/*.db-shm
+**/*.db-wal
+
+# Distribution archives
+*.zip
